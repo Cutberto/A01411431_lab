@@ -3,7 +3,7 @@
 body {
     margin: 0 auto;
     max-width: 50em;
-    background-color:#51c2d5;
+    background-color: #bbf1fa;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     line-height: 1.5;
     padding: 4em 1em;
@@ -21,9 +21,6 @@ h1{
     
 }
 
-body {
-    background-color: #bbf1fa;
-}
 
 
 pre {
