@@ -10,26 +10,20 @@ body {
 }
 
 h2 {
-    color:#6495ed;
+    color:#663f3f;
     margin-top: 1em;
     padding-top: 1em;
 }
 
-h1, strong {
-  color: #333;
+h1{
+    color : #663f3f;
+    
 }
 
-code,
-pre {
-  background: #eee;
-  border-bottom: 1px solid #d8dee9;
-  color: #a7adba;
+body {
+    background-color: #bbf1fa;
 }
 
-code {
-  padding: 2px 4px;
-  vertical-align: text-bottom;
-}
 
 pre {
   padding: 1em;
@@ -39,7 +33,7 @@ pre {
 
 
 header {
-    background-color: #69c;
+    background-color: #ec4646;
     background-image: url("header.jpg");
     background-position: center top;
     background-repeat: no-repeat;
@@ -47,6 +41,7 @@ header {
     line-height: 1.2;
     padding: 10vw 2em;
     text-align: center;
+    
   }
 
   header img {
@@ -75,14 +70,12 @@ header {
     transition-property: color, background;
   }
   
+a:link {
+    color : palevioletred;
+}
 
-
-  header a:hover {
-    background:  #cyan;
-    color: white;
+   a:hover {
+    color: indianred;
   }
 
-  .fondo_morado{
-      background-color: plum;
-  }
 
