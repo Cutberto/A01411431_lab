@@ -3,6 +3,7 @@
 body {
     margin: 0 auto;
     max-width: 50em;
+    background-color:#51c2d5;
     font-family: "Roboto", "Helvetica", "Arial", sans-serif;
     line-height: 1.5;
     padding: 4em 1em;
@@ -43,6 +44,12 @@ header {
     text-align: center;
     
   }
+
+footer {
+    background-color : #51c2d5;
+    color: white;
+    
+}
 
   header img {
     display: inline-block;
