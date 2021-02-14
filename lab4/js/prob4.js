@@ -1,4 +1,3 @@
-window.alert("hola");
 
 function promedios( matriz ) {
     var ncolumnas = matriz[0].length;

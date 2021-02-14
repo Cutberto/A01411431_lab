@@ -1,4 +1,3 @@
-window.alert("hola");
 
 function genera_tabla(limite) {
   // Obtener la referencia del elemento body
