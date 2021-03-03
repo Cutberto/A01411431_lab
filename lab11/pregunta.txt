@@ -1,0 +1,1 @@
+Json es tipo de archivo que contiene un objeto de javascript; JavaScipt Object Notation
