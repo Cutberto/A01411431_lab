@@ -6,12 +6,16 @@ const laboratorios = require('./routes/laboratorios');
 
 const mensaje = require ('./routes/mensaje');
 
+const visitante = require ('./routes/visitantes');
+
 app.set('view engine', 'ejs');
 app.set('views', 'views');
 
 app.use('/laboratorios', laboratorios);
 
 app.use('/mensaje',mensaje);
+
+app.use('/visitantes', visitante);
 
 //Para acceder a los recursos de la carpeta public
 app.use(express.static(path.join(__dirname, 'public')));
