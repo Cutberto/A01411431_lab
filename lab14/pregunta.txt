@@ -1,7 +1,0 @@
-¿Qué beneficios encuentras en el estilo MVC?
-Que todos los datos están mucho más organizados y se reduce el costo tecnológico al ser un código más mantenible
-
-
-¿Encuentras alguna desventaja en el estilo arquitectónico MVC?
-De momento, que se depende de la implementación de muchas librerias de npm para su funcionamiento, además del espacio adicional en memoria.
-De todas formas, creo que vale la pena a cambio de un programa mantenible.
