@@ -1,0 +1,44 @@
+Revisa el contenido de la tabla materiales y determina si existe alguna inconsistencia en el contenido de la tabla. ¿Cuál es? ¿A qué se debe?
+La inconsistencia se debe a que ya se tiene un dato con esa llave
+
+¿Qué ocurrió? 
+Ya no se pueden añadir nuevos datos con una llave previamente utilizada
+
+¿Qué información muestra esta consulta?
+Se muestra la info de los constraints definidos para las llaves primarias
+
+¿Qué sentencias utilizaste para definir las llaves primarias?
+Se utiliza PRIMARY KEY
+
+¿Qué sentencias utilizaste para definir este constraint?
+ALTER TABLE
+
+
+¿Qué particularidad observas en los valores para clave, rfc y numero?
+Que no son valores legibles para un usuario 
+
+¿Cómo responde el sistema a la inserción de este registro?
+Ejecuta correctamente la inserción
+
+¿Qué significa el mensaje que emite el sistema?
+No puede ser agregada la columna
+
+¿Qué significado tiene la sentencia anterior?
+Se esta protegiendo la integridad referencial, porque esta modificacion no tendria una referencia congruente
+
+¿Qué significan las columnas de esas consultas?
+Las caracteristicas del constraint definido para la tabla
+
+¿Qué uso se le está dando a GETDATE()?
+Para dar la fecha en que se añade la información (un timestamp)
+
+¿Tiene sentido el valor del campo de cantidad?
+No lo tiene
+
+¿Cómo responde el sistema?
+The INSERT statement conflicted with the CHECK constraint "cantidad". The conflict occurred in database "a1411431", table "a1411431.Entregan", column 'Cantidad'.
+
+¿Qué significa el mensaje?
+que la instrucción no se pudo ejecutar debido a la restricción tipo constraint definida
+
+Se dice que se tiene integridad referencial cuando una tabla hace referencias válidas (congruentes y existentes) hacia otra tabla, y no se presenta el caso contrario. 
