@@ -1,0 +1,22 @@
+  <html> 
+      <head>
+          <meta charset="UTF-8">
+          <title>Subir fotos al sitio web</title>
+          <link rel="stylesheet" href="../css/main.css">
+        </head>  
+        <body>
+            <%- include('includes/head.ejs') %>
+
+            <h1>Portal para cargar imagenes en el sitio web</h1>  
+            
+            
+            <form action="/uploadfile" enctype="multipart/form-data" method="POST"> 
+              <input type="file" name="myFile" />
+              <input type="submit" value="Upload a file"/>
+           </form>
+            
+            
+               
+  
+             </body> 
+             </html>
